@@ -10,7 +10,7 @@ import streamlit as st
 # =====================
 # 1. 路径设置
 # =====================
-MODEL_PATH = Path(r"D:\desktop\concrete_crack_detection\models\crack_cnn.pth")
+MODEL_PATH = Path("models/crack_cnn.pth")
 IMAGE_SIZE = 128
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
